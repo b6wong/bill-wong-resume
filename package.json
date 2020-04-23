@@ -1,0 +1,13 @@
+{
+  "name": "bill-wong-resume",
+  "version": "0.0.1",
+  "description": "Bill Wong's Resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "resume test"
+  },
+  "author": "Bill Wong",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

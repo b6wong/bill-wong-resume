@@ -1,0 +1,116 @@
+{
+  "basics": {
+    "name": "Bill Wong",
+    "label": "DevOps Engineer",
+    "picture": "",
+    "email": "b6wong@gmail.com",
+    "phone": "(647) 388-1387",
+    "website": "http://www.bill.wong.ca",
+    "summary": "Bill Wong Summary",
+    "location": {
+      "address": "1701-125 Village Green Square",
+      "postalCode": "M1S 0G3",
+      "city": "Scarborough",
+      "countryCode": "CA",
+      "region": "Ontario"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "",
+        "url": ""
+      },
+      {
+        "network": "SoundCloud",
+        "username": "",
+        "url": "https://soundcloud.com/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "",
+      "position": "",
+      "website": "",
+      "summary": "",
+      "highlights": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "",
+      "position": "",
+      "website": "",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "",
+      "area": "",
+      "studyType": "",
+      "gpa": "",
+      "courses": [
+        "",
+        ""
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "website": "",
+      "summary": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "",
+      "level": "",
+      "keywords": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "",
+      "level": "",
+      "keywords": [
+        "",
+        "",
+        ""
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "",
+      "fluency": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "keywords": [
+        "",
+        ""
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "",
+      "reference": ""
+    }
+  ]
+}

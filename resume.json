@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Bill Wong",
-    "label": "DevOps Engineer",
+    "label": "Cloud Engineer",
     "picture": "",
     "email": "b6wong@gmail.com",
     "phone": "(647) 388-1387",
-    "website": "http://www.bill.wong.ca",
-    "summary": "Bill Wong Summary",
+    "website": "http://www.billwong.ca",
+    "summary": "Bill has twelves years of development and three years of cloud engineering experience. He has proven skills in working on the infrastructure of a SaaS product. He has a strong desire to improve the efficiency of delivering software by leveraging technology and tools; and by fostering a collaborative culture.",
     "location": {
       "address": "1701-125 Village Green Square",
       "postalCode": "M1S 0G3",
@@ -16,101 +16,84 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "",
-        "url": ""
-      },
-      {
-        "network": "SoundCloud",
-        "username": "",
-        "url": "https://soundcloud.com/"
+        "network": "GitHub",
+        "username": "b6wong",
+        "url": "https://github.com/b6wong/"
       }
     ]
   },
   "work": [
     {
-      "company": "",
-      "position": "",
-      "website": "",
-      "summary": "",
+      "company": "Sensibill Inc.",
+      "position": "Staff Engineer",
+      "website": "https://getsensibill.com/",
+      "startDate": "2017-04-10",
+      "endDate": "2020-04-15",
+      "summary": "Sensibill is a receipt management service for banks and other financial institutes.",
       "highlights": [
-        "",
-        "",
-        ""
+        "Team lead of the Platform / Infrastructure team",
+        "Responsible for the SLO of the SaaS offering",
+        "Technical lead for cloud migration from IBM SoftLayer to AWS"
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "",
-      "position": "",
-      "website": "",
-      "summary": "",
+      "company": "LANSA Inc.",
+      "position": "Solutions Developer",
+      "website": "https://lansa.com/",
+      "startDate": "2006-07-17",
+      "endDate": "2017-03-17",
+      "summary": "LANSA is a low-code development platform that natively supports IBM i. LANSA Professional Services helps customer build new apps and modernize existing ones.",
       "highlights": [
-        ""
+        "Primary resource researching and experimenting in technologies outside of the LANSA product line.  This directly led to the success of several projects (iOS, mobile), and is providing for a new stream of opportunities in future projects.",
+        "Product lead of the company’s ePayment Codestart package.  Responsibility includes providing technical recommendations, integration with new ePayment Gateways, and ensuring solution remain compliant with PCI standards."
       ]
     }
   ],
   "education": [
     {
-      "institution": "",
-      "area": "",
-      "studyType": "",
-      "gpa": "",
-      "courses": [
-        "",
-        ""
-      ]
-    }
-  ],
-  "publications": [
-    {
-      "name": "",
-      "publisher": "",
-      "releaseDate": "",
-      "website": "",
-      "summary": ""
+      "institution": "University of Waterloo",
+      "area": "Mathematics, Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2000-09-01",
+      "endDate": "2005-12-31"
     }
   ],
   "skills": [
     {
-      "name": "",
-      "level": "",
+      "name": "Cloud",
       "keywords": [
-        "",
-        "",
-        ""
+        "AWS",
+        "SoftLayer"
       ]
     },
     {
-      "name": "",
+      "name": "Operating Systems",
+      "keywords": [
+        "Linux - Ubuntu"
+      ]
+    },
+    {
+      "name": "Infrastructure as Code",
       "level": "",
       "keywords": [
-        "",
-        "",
-        ""
+        "CloudFormation",
+        "Terraform"
       ]
-    }
-  ],
-  "languages": [
+    },
     {
-      "language": "",
-      "fluency": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "",
+      "name": "Configuration Manager",
       "keywords": [
-        "",
-        ""
+        "Chef"
       ]
-    }
-  ],
-  "references": [
+    },
     {
-      "name": "",
-      "reference": ""
+      "name": "Languages",
+      "keywords": [
+        "Javascript",
+        "Ruby",
+        "Python",
+        "Bash Script"
+      ]
     }
   ]
 }

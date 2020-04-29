@@ -19,3 +19,4 @@ Create your resume.json, or you can generate a sample file:
 Generate an html version of the resume and serve it locally
 
 `resume serve --port 3000 --theme flat`
+`resume serve --port 3000 --theme onepage`

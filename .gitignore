@@ -1,2 +1,5 @@
+# exclude private files
+.*
+
 # exclude the public directory
 /public

@@ -8,6 +8,16 @@
   },
   "author": "Bill Wong",
   "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^0.11.4",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-exec": "^0.4.6",
+    "jsonresume-theme-onepage": "0.0.3",
+    "less": "^1.7.5",
+    "underscore.string": "^2.3.3"
+  },
   "dependencies": {
+    "resume-cli": "^1.2.7"
   }
 }

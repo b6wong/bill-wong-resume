@@ -3,3 +3,9 @@
 
 # exclude the public directory
 /public
+
+# exclude the node_modules
+/node_modules
+
+# exclude index.html -- this should be regenerated
+index.html

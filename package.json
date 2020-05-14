@@ -15,7 +15,7 @@
     "grunt-exec": "^0.4.6",
     "jsonresume-theme-onepage": "0.0.3",
     "less": "^1.7.5",
-    "underscore.string": "^2.3.3"
+    "underscore.string": "^3.3.5"
   },
   "dependencies": {
     "resume-cli": "^1.2.7"

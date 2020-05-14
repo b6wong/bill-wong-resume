@@ -27,4 +27,4 @@ The infrastructure will be maintained by Terraform in the [terraform-aws](https:
 
 ## CI/CD
 
-TBD
+Using GitHub Actions

@@ -4,7 +4,7 @@
   "description": "Bill Wong's Resume",
   "main": "index.js",
   "scripts": {
-    "test": "resume test"
+    "test": "node node_modules/resume-cli test -r `pwd`/resume.json"
   },
   "author": "Bill Wong",
   "license": "ISC",

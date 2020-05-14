@@ -47,6 +47,9 @@ jobs:
         SOURCE_DIR: "exported-resume"
 
     - name: Invalidate file in CloudFront
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       run: |
         aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_DEVELOPMENT_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/index.html"
         

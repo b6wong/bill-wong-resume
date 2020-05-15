@@ -28,3 +28,4 @@ The infrastructure will be maintained by Terraform in the [terraform-aws](https:
 ## CI/CD
 
 Using GitHub Actions.
+Push to master branch will deploy to Development.

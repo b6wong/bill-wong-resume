@@ -1,0 +1,71 @@
+name: Production Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+name: Create Release
+
+jobs:
+  build:
+    name: Create Release
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [12.x]
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+    
+    - name: Create Release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+      with:
+        tag_name: ${{ github.ref }}
+        release_name: Release ${{ github.ref }}
+        body: Release ${{ github.ref }}
+        draft: false
+        prerelease: false
+
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+
+    - name: NPM Install
+      run: npm install
+
+    - name: Unit Test
+      run: npm test
+
+    - name: Generate the resume
+      run: node node_modules/resume-cli export index.html -t onepage -r `pwd`/resume.json
+
+    - name: Move resume to its own folder
+      run: |
+        mkdir exported-resume
+        cp index.html exported-resume/index.html
+
+    - name: Deploy to S3
+      uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --acl public-read
+      env:
+        AWS_S3_BUCKET: ${{ secrets.AWS_PRODUCTION_BUCKET_NAME }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_PRODUCTION_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_PRODUCTION_SECRET_ACCESS_KEY }}
+        AWS_REGION: ${{ secrets.AWS_REGION }}
+        SOURCE_DIR: "exported-resume"
+
+    - name: Invalidate file in CloudFront
+      env:
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_PRODUCTION_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_PRODUCTION_SECRET_ACCESS_KEY }}
+      run: |
+        aws cloudfront create-invalidation --distribution-id ${{ secrets.AWS_PRODUCTION_CLOUDFRONT_DISTRIBUTION_ID }} --paths "/index.html"
+        

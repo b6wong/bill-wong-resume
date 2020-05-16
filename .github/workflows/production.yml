@@ -1,11 +1,9 @@
-name: Production Release
+name: Create Release
 
 on:
   push:
     tags:
       - 'v*'
-
-name: Create Release
 
 jobs:
   build:

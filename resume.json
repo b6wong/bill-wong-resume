@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Bill Wong",
-    "label": "DevOps Engineer",
+    "label": "Cloud Engineer",
     "picture": "",
     "email": "b6wong@gmail.com",
     "phone": "(647) 388-1387",
@@ -23,6 +23,13 @@
     ]
   },
   "work": [
+    {
+      "company": "Varicent Canada Opco Ltd.",
+      "position": "Senior Cloud Engineer",
+      "website": "https://www.varicent.com/",
+      "startDate": "2020-08-17",
+      "summary": ""
+    },
     {
       "company": "Sensibill Inc.",
       "position": "Staff Engineer",

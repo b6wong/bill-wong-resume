@@ -18,6 +18,6 @@
     "underscore.string": "^3.3.5"
   },
   "dependencies": {
-    "resume-cli": "^1.2.7"
+    "resume-cli": "^1.2.8"
   }
 }

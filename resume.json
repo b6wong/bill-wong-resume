@@ -28,7 +28,12 @@
       "position": "Senior Cloud Engineer",
       "website": "https://www.varicent.com/",
       "startDate": "2020-08-17",
-      "summary": ""
+      "summary": [
+        "Improve maturity of AWS usage",
+        "Disaster Recovery planning and testing",
+        "Monitoring and Observability",
+        "Collaborate with Security and Compliance team to ensure requirements are met"
+      ]
     },
     {
       "company": "Sensibill Inc.",
@@ -84,6 +89,7 @@
       "level": "",
       "keywords": [
         "Terraform",
+        "Serverless Framework",
         "CloudFormation"
       ]
     },
@@ -97,9 +103,9 @@
       "name": "Languages",
       "keywords": [
         "Javascript",
-        "Ruby",
         "Python",
-        "Bash Script"
+        "Bash Script",
+        "Ruby"
       ]
     }
   ]

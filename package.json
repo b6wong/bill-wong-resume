@@ -9,7 +9,7 @@
   "author": "Bill Wong",
   "license": "ISC",
   "devDependencies": {
-    "grunt": "^1.3.0",
+    "grunt": "^1.5.2",
     "grunt-contrib-less": "^0.11.4",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-exec": "^0.4.6",

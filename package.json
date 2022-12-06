@@ -10,11 +10,11 @@
   "license": "ISC",
   "devDependencies": {
     "grunt": "^1.3.0",
-    "grunt-contrib-less": "^0.11.4",
-    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-watch": "^1.1.0",
     "grunt-exec": "^0.4.6",
     "jsonresume-theme-onepage": "0.0.3",
-    "less": "^1.7.5",
+    "less": "^4.1.3",
     "underscore.string": "^3.3.5"
   },
   "dependencies": {
